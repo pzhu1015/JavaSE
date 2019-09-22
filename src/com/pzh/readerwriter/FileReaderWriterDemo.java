@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019дЙ9тб15ху обнГ4:07:06
+* @Date 2019Е╧╢9Ф°┬15Ф≈╔ Д╦▀Е█┬4:07:06
 * @Description 
 */
 package com.pzh.readerwriter;
@@ -19,7 +19,7 @@ public class FileReaderWriterDemo {
 		int reads = 0;
 		while((reads = fr.read(buf)) > 0) {
 			fw.write(buf, 0, reads);
-//			fw.flush();//©иртг©жфп╢елё╛fwжпсп8╣д╩╨ЁЕгЬ 
+//			fw.flush();//Е▐╞Д╩╔Е╪╨Е┬╤Е├≥Г⌡≤О╪▄fwД╦╜Ф°┴8Г └Г╪⌠Е├╡Е▄╨ 
 		}
 		fr.close();
 		fw.close();

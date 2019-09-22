@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019Äê9ÔÂ20ÈÕ ÏÂÎç11:03:15
+* @Date 2019å¹´9æœˆ20æ—¥ ä¸‹åˆ11:03:15
 * @Description 
 */
 package com.pzh.sort;
@@ -18,7 +18,7 @@ public class BubbleSortDemo {
 	}
 
 	public static void bubbleSort(int array[]) {
-		//¿ØÖÆ¹²±È½Ï¶àÉÙÂÖ
+		//æ§åˆ¶å…±æ¯”è¾ƒå¤šå°‘è½®
 		for (int i = 0; i < array.length - 1; i++) {
 			for (int j = 0; j < array.length - 1 - i; j++) {
 				if (array[j] > array[j + 1]) {

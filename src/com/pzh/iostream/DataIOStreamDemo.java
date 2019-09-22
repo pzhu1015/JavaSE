@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019Äê9ÔÂ15ÈÕ ÏÂÎç2:37:47
+* @Date 2019å¹´9æœˆ15æ—¥ ä¸‹åˆ2:37:47
 * @Description 
 */
 package com.pzh.iostream;
@@ -18,7 +18,7 @@ public class DataIOStreamDemo {
 		String name = "zhangsan";
 		int age = 10;
 		boolean flag = true;
-		char sex = 'ÄĞ';
+		char sex = 'ç”·';
 		double money = 100.56;
 		
 		DataOutputStream dos = new DataOutputStream(new FileOutputStream("e:/pzh/test/dataoutput.txt"));

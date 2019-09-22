@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019Äê9ÔÂ20ÈÕ ÏÂÎç9:46:09
+* @Date 2019å¹´9æœˆ20æ—¥ ä¸‹åˆ9:46:09
 * @Description 
 */
 package com.pzh.recursive;
@@ -13,10 +13,10 @@ public class HanoiDemo {
 
 	public static void hanoi(int n, char from, char in, char to) {
 		if (n == 1) {
-			System.out.println("µÚ1¸öÅÌ×Ó´Ó" + from + "ÒÆµ½" + to);
+			System.out.println("ç¬¬1ä¸ªç›˜å­ä»" + from + "ç§»åˆ°" + to);
 		} else {
 			hanoi(n - 1, from, to, in);
-			System.out.println("µÚ" + n + "¸öÅÌ×Ó´Ó" + from + "ÒÆµ½" + to);
+			System.out.println("ç¬¬" + n + "ä¸ªç›˜å­ä»" + from + "ç§»åˆ°" + to);
 			hanoi(n - 1, in, from, to);
 		}
 	}

@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019Äê9ÔÂ22ÈÕ ÉÏÎç11:10:58
+* @Date 2019å¹´9æœˆ22æ—¥ ä¸Šåˆ11:10:58
 * @Description 
 */
 package com.pzh.sort;
@@ -20,13 +20,13 @@ public class ShellSortDemo {
 	private static void shellSort(int[] array) {
 
 		int k = 0;
-		// ±éÀúËùÓĞ²½³¤
+		// éå†æ‰€æœ‰æ­¥é•¿
 		for (int d = array.length / 2; d > 0; d /= 2) {
-			// ±éÀúËùÓĞµÄÔªËØ
+			// éå†æ‰€æœ‰çš„å…ƒç´ 
 			for (int i = d; i < array.length; i++) {
-				// ±éÀú±¾×éÖĞËùÓĞµÄÔªËØ
+				// éå†æœ¬ç»„ä¸­æ‰€æœ‰çš„å…ƒç´ 
 				for (int j = i - d; j >= 0; j -= d) {
-					// Èç¹ûµ±Ç°ÔªËØ´óÓÚ¼ÓÉÏ²½³¤ºóµÄÄÇ¸öÔªËØ
+					// å¦‚æœå½“å‰å…ƒç´ å¤§äºåŠ ä¸Šæ­¥é•¿åçš„é‚£ä¸ªå…ƒç´ 
 					if (array[j] > array[j+d]) {
 						int tmp = array[j];
 						array[j] = array[j+d];
@@ -34,7 +34,7 @@ public class ShellSortDemo {
 					}
 				}
 			}
-			System.out.println("µÚ" + (++k) + "´ÎÅÅĞò½á¹û: " + Arrays.toString(array));
+			System.out.println("ç¬¬" + (++k) + "æ¬¡æ’åºç»“æœ: " + Arrays.toString(array));
 		}
 	}
 

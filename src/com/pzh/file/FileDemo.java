@@ -1,6 +1,6 @@
 /**
 * @Author pzh
-* @Date 2019Äê9ÔÂ14ÈÕ ÏÂÎç8:20:43
+* @Date 2019å¹´9æœˆ14æ—¥ ä¸‹åˆ8:20:43
 * @Description 
 */
 package com.pzh.file;
@@ -29,7 +29,7 @@ public class FileDemo {
 		File myFile2 = new File("e:/pzh/test/zhangsan/pzh.txt");
 		System.out.println(myFile2.createNewFile());
 		
-		//²é¿´µ±Ç°Ä¿Â¼ÏÂµÄËùÓĞÄ¿Â¼ºÍÎÄ¼ş
+		//æŸ¥çœ‹å½“å‰ç›®å½•ä¸‹çš„æ‰€æœ‰ç›®å½•å’Œæ–‡ä»¶
 		String[] files = file.list();
 		for (String f : files) {
 			System.out.println(f);
@@ -37,7 +37,7 @@ public class FileDemo {
 		
 		System.out.println("===================================");
 		
-		//²é¿´µ±Ç°Ä¿Â¼ÏÂÖ¸¶¨ºó×ºµÄÎÄ¼ş
+		//æŸ¥çœ‹å½“å‰ç›®å½•ä¸‹æŒ‡å®šåç¼€çš„æ–‡ä»¶
 		files = file.list(new FilenameFilter() {
 
 			@Override
@@ -53,14 +53,14 @@ public class FileDemo {
 		
 		System.out.println("===================================");
 		
-		//²é¿´µ±Ä¿Â¼ÏÂµÄËùÓĞÎÄ¼şFile¶ÔÏó
+		//æŸ¥çœ‹å½“ç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶Fileå¯¹è±¡
 		File[] listFiles = file.listFiles();
 		for (File f : listFiles) {
 			System.out.println(f.getName() + (f.isDirectory()?"\\":"") + "\t" + f.length());
 		}
 		System.out.println("===================================");
 		
-		//²é¿´µ±Ç°Ä¿Â¼ÏÂµÄËùÓĞºó×ºÎª".txt"µÄÎÄ¼ş¶ÔÏó
+		//æŸ¥çœ‹å½“å‰ç›®å½•ä¸‹çš„æ‰€æœ‰åç¼€ä¸º".txt"çš„æ–‡ä»¶å¯¹è±¡
 		listFiles = file.listFiles(new FilenameFilter() {
 
 			@Override
