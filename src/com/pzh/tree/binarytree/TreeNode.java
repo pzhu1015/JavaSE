@@ -3,7 +3,7 @@
 * @Date 2019年9月25日 下午7:44:16
 * @Description 
 */
-package com.pzh.tree;
+package com.pzh.tree.binarytree;
 
 public class TreeNode {
 	int data;

@@ -3,7 +3,7 @@
 * @Date 2019年10月17日 下午9:25:03
 * @Description 
 */
-package com.pzh.tree;
+package com.pzh.tree.arraybinarytree;
 
 public class ArrayBinaryTree {
 	private int[] data;
